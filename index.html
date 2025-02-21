@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <link rel="stylesheet" href="style.css">
+    
+    
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Brand</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="hamburger" onclick="toggleMenu()">
+            &#9776;
+        </div>
+    </nav>
+    
+
+
+    <header>
+        <h1>E-Commerce Store</h1>
+    </header>
+    <main>
+        <section class="products">
+            <div class="product" data-id="1" data-price="800">
+                <img class="brush" src="brush.png" alt="">
+                <h2>Makeup Brush Set</h2>
+                <p>$80</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-id="2" data-price="500">
+                <img class="nars" src="nars.png" alt="">
+                <h2>Foundation</h2>
+                <p>$50</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-id="3" data-price="100">
+                <img class="primer" src="primer.png" alt="">
+                <h2>Primer</h2>
+                <p>$10</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        
+        <!-- <section class="products"> -->
+            <div class="product" data-id="1" data-price="800">
+                <img class="losspowder" src="losspowder.png" alt="">
+                <h2>Loss Powder</h2>
+                <p>$80</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-id="2" data-price="500">
+                <img class="settingSpary" src="settingSpary.png" alt="">
+                <h2>Makeup Setting Spary</h2>
+                <p>$50</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-id="3" data-price="100">
+                <img class="eyeshadow" src="eyeshadow.png" alt="">
+                <h2>Eyeshadow</h2>
+                <p>$100</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </section>
+        <section class="products">
+            <div class="product" data-id="1" data-price="800">
+                <img class="lighliter" src="pac.png" alt="">
+                <h2>lighliter</h2>
+                <p>$80</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-id="2" data-price="500">
+                <img class="toner" src="toner.png" alt="">
+                <h2>Face Toner</h2>
+                <p>$50</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-id="3" data-price="100">
+                <img class="cleanger" src="cleanger.png" alt="">
+                <h2>Cleanger</h2>
+                <p>$10</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        
+
+        <section class="products">
+            <div class="product" data-id="1" data-price="800">
+                <img class="lighliter" src="pac.png" alt="">
+                <h2>lighliter</h2>
+                <p>$80</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-id="2" data-price="500">
+                <img class="toner" src="toner.png" alt="">
+                <h2>Face Toner</h2>
+                <p>$50</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-id="3" data-price="100">
+                <img class="cleanger" src="cleanger.png" alt="">
+                <h2>Cleanger</h2>
+                <p>$10</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </section>
+        <section class="cart">
+            <h2>Shopping Cart</h2>
+            <ul id="cart-items"></ul>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2025 Your Company. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
